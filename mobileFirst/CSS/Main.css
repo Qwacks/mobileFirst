@@ -1,0 +1,55 @@
+ul{
+  list-style-type: none;
+  margin:0 5% 0 5%;
+  padding:0;
+  overflow: hidden;
+  background: #d3d3d3;
+  font-size: 22px;
+  width: 90%;
+}
+li{
+  float:left;
+  padding: 2px;
+  margin-left:10%;
+}
+p{
+    margin: 0 5% 0 5%;
+}
+img{
+    width: 90%;
+    margin: 2% 5% 2% 5%;
+}
+a:link {
+    text-decoration: none;
+    color: deeppink;
+}
+a:visited {
+    color:deeppink
+}
+a:hover{
+  text-decoration: underline;
+  color:skyblue;
+}
+a:active{
+  color: #D2B48C;
+}
+@media screen and (min-width: 769px){
+    .left{
+        width: 700px;
+        float: left;
+    }
+    .right{
+        margin-left: 750px;
+        margin-right: 5%;
+    }
+    .links{
+    width: 90%;
+    margin: auto 0;
+}
+    img{
+        width: 700px;
+        border: 1px solid red;
+    }
+}
+
+
